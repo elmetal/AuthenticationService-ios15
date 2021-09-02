@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6877EBFE26E04A0A00FBF155 /* AuthenticationService_ios15App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6877EBFD26E04A0A00FBF155 /* AuthenticationService_ios15App.swift */; };
+		6877EC0026E04A0A00FBF155 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6877EBFF26E04A0A00FBF155 /* ContentView.swift */; };
+		6877EC0226E04A0C00FBF155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6877EC0126E04A0C00FBF155 /* Assets.xcassets */; };
+		6877EC0526E04A0C00FBF155 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6877EC0426E04A0C00FBF155 /* Preview Assets.xcassets */; };
+		6877EC0F26E04A0C00FBF155 /* AuthenticationService_ios15Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6877EC0E26E04A0C00FBF155 /* AuthenticationService_ios15Tests.swift */; };
+		6877EC1926E04A0C00FBF155 /* AuthenticationService_ios15UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6877EC1826E04A0C00FBF155 /* AuthenticationService_ios15UITests.swift */; };
+		6877EC1B26E04A0C00FBF155 /* AuthenticationService_ios15UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6877EC1A26E04A0C00FBF155 /* AuthenticationService_ios15UITestsLaunchTests.swift */; };
+		6877EC2826E0505700FBF155 /* VCRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6877EC2726E0505700FBF155 /* VCRepresentable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6877EC0B26E04A0C00FBF155 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6877EBF226E04A0A00FBF155 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6877EBF926E04A0A00FBF155;
+			remoteInfo = "AuthenticationService-ios15";
+		};
+		6877EC1526E04A0C00FBF155 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6877EBF226E04A0A00FBF155 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6877EBF926E04A0A00FBF155;
+			remoteInfo = "AuthenticationService-ios15";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6877EBFA26E04A0A00FBF155 /* AuthenticationService-ios15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AuthenticationService-ios15.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6877EBFD26E04A0A00FBF155 /* AuthenticationService_ios15App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService_ios15App.swift; sourceTree = "<group>"; };
+		6877EBFF26E04A0A00FBF155 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6877EC0126E04A0C00FBF155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6877EC0426E04A0C00FBF155 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6877EC0A26E04A0C00FBF155 /* AuthenticationService-ios15Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AuthenticationService-ios15Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6877EC0E26E04A0C00FBF155 /* AuthenticationService_ios15Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService_ios15Tests.swift; sourceTree = "<group>"; };
+		6877EC1426E04A0C00FBF155 /* AuthenticationService-ios15UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AuthenticationService-ios15UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6877EC1826E04A0C00FBF155 /* AuthenticationService_ios15UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService_ios15UITests.swift; sourceTree = "<group>"; };
+		6877EC1A26E04A0C00FBF155 /* AuthenticationService_ios15UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService_ios15UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6877EC2726E0505700FBF155 /* VCRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCRepresentable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6877EBF726E04A0A00FBF155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6877EC0726E04A0C00FBF155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6877EC1126E04A0C00FBF155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6877EBF126E04A0A00FBF155 = {
+			isa = PBXGroup;
+			children = (
+				6877EBFC26E04A0A00FBF155 /* AuthenticationService-ios15 */,
+				6877EC0D26E04A0C00FBF155 /* AuthenticationService-ios15Tests */,
+				6877EC1726E04A0C00FBF155 /* AuthenticationService-ios15UITests */,
+				6877EBFB26E04A0A00FBF155 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6877EBFB26E04A0A00FBF155 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6877EBFA26E04A0A00FBF155 /* AuthenticationService-ios15.app */,
+				6877EC0A26E04A0C00FBF155 /* AuthenticationService-ios15Tests.xctest */,
+				6877EC1426E04A0C00FBF155 /* AuthenticationService-ios15UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6877EBFC26E04A0A00FBF155 /* AuthenticationService-ios15 */ = {
+			isa = PBXGroup;
+			children = (
+				6877EBFD26E04A0A00FBF155 /* AuthenticationService_ios15App.swift */,
+				6877EBFF26E04A0A00FBF155 /* ContentView.swift */,
+				6877EC2726E0505700FBF155 /* VCRepresentable.swift */,
+				6877EC0126E04A0C00FBF155 /* Assets.xcassets */,
+				6877EC0326E04A0C00FBF155 /* Preview Content */,
+			);
+			path = "AuthenticationService-ios15";
+			sourceTree = "<group>";
+		};
+		6877EC0326E04A0C00FBF155 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6877EC0426E04A0C00FBF155 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6877EC0D26E04A0C00FBF155 /* AuthenticationService-ios15Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6877EC0E26E04A0C00FBF155 /* AuthenticationService_ios15Tests.swift */,
+			);
+			path = "AuthenticationService-ios15Tests";
+			sourceTree = "<group>";
+		};
+		6877EC1726E04A0C00FBF155 /* AuthenticationService-ios15UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6877EC1826E04A0C00FBF155 /* AuthenticationService_ios15UITests.swift */,
+				6877EC1A26E04A0C00FBF155 /* AuthenticationService_ios15UITestsLaunchTests.swift */,
+			);
+			path = "AuthenticationService-ios15UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6877EBF926E04A0A00FBF155 /* AuthenticationService-ios15 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6877EC1E26E04A0C00FBF155 /* Build configuration list for PBXNativeTarget "AuthenticationService-ios15" */;
+			buildPhases = (
+				6877EBF626E04A0A00FBF155 /* Sources */,
+				6877EBF726E04A0A00FBF155 /* Frameworks */,
+				6877EBF826E04A0A00FBF155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AuthenticationService-ios15";
+			productName = "AuthenticationService-ios15";
+			productReference = 6877EBFA26E04A0A00FBF155 /* AuthenticationService-ios15.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6877EC0926E04A0C00FBF155 /* AuthenticationService-ios15Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6877EC2126E04A0C00FBF155 /* Build configuration list for PBXNativeTarget "AuthenticationService-ios15Tests" */;
+			buildPhases = (
+				6877EC0626E04A0C00FBF155 /* Sources */,
+				6877EC0726E04A0C00FBF155 /* Frameworks */,
+				6877EC0826E04A0C00FBF155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6877EC0C26E04A0C00FBF155 /* PBXTargetDependency */,
+			);
+			name = "AuthenticationService-ios15Tests";
+			productName = "AuthenticationService-ios15Tests";
+			productReference = 6877EC0A26E04A0C00FBF155 /* AuthenticationService-ios15Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6877EC1326E04A0C00FBF155 /* AuthenticationService-ios15UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6877EC2426E04A0C00FBF155 /* Build configuration list for PBXNativeTarget "AuthenticationService-ios15UITests" */;
+			buildPhases = (
+				6877EC1026E04A0C00FBF155 /* Sources */,
+				6877EC1126E04A0C00FBF155 /* Frameworks */,
+				6877EC1226E04A0C00FBF155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6877EC1626E04A0C00FBF155 /* PBXTargetDependency */,
+			);
+			name = "AuthenticationService-ios15UITests";
+			productName = "AuthenticationService-ios15UITests";
+			productReference = 6877EC1426E04A0C00FBF155 /* AuthenticationService-ios15UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6877EBF226E04A0A00FBF155 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					6877EBF926E04A0A00FBF155 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					6877EC0926E04A0C00FBF155 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 6877EBF926E04A0A00FBF155;
+					};
+					6877EC1326E04A0C00FBF155 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 6877EBF926E04A0A00FBF155;
+					};
+				};
+			};
+			buildConfigurationList = 6877EBF526E04A0A00FBF155 /* Build configuration list for PBXProject "AuthenticationService-ios15" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6877EBF126E04A0A00FBF155;
+			productRefGroup = 6877EBFB26E04A0A00FBF155 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6877EBF926E04A0A00FBF155 /* AuthenticationService-ios15 */,
+				6877EC0926E04A0C00FBF155 /* AuthenticationService-ios15Tests */,
+				6877EC1326E04A0C00FBF155 /* AuthenticationService-ios15UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6877EBF826E04A0A00FBF155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6877EC0526E04A0C00FBF155 /* Preview Assets.xcassets in Resources */,
+				6877EC0226E04A0C00FBF155 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6877EC0826E04A0C00FBF155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6877EC1226E04A0C00FBF155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6877EBF626E04A0A00FBF155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6877EC0026E04A0A00FBF155 /* ContentView.swift in Sources */,
+				6877EBFE26E04A0A00FBF155 /* AuthenticationService_ios15App.swift in Sources */,
+				6877EC2826E0505700FBF155 /* VCRepresentable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6877EC0626E04A0C00FBF155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6877EC0F26E04A0C00FBF155 /* AuthenticationService_ios15Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6877EC1026E04A0C00FBF155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6877EC1B26E04A0C00FBF155 /* AuthenticationService_ios15UITestsLaunchTests.swift in Sources */,
+				6877EC1926E04A0C00FBF155 /* AuthenticationService_ios15UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6877EC0C26E04A0C00FBF155 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6877EBF926E04A0A00FBF155 /* AuthenticationService-ios15 */;
+			targetProxy = 6877EC0B26E04A0C00FBF155 /* PBXContainerItemProxy */;
+		};
+		6877EC1626E04A0C00FBF155 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6877EBF926E04A0A00FBF155 /* AuthenticationService-ios15 */;
+			targetProxy = 6877EC1526E04A0C00FBF155 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6877EC1C26E04A0C00FBF155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6877EC1D26E04A0C00FBF155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6877EC1F26E04A0C00FBF155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AuthenticationService-ios15/Preview Content\"";
+				DEVELOPMENT_TEAM = TLMA6V33AH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elmetal.AuthenticationService-ios15";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6877EC2026E04A0C00FBF155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AuthenticationService-ios15/Preview Content\"";
+				DEVELOPMENT_TEAM = TLMA6V33AH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elmetal.AuthenticationService-ios15";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6877EC2226E04A0C00FBF155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TLMA6V33AH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elmetal.AuthenticationService-ios15Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AuthenticationService-ios15.app/AuthenticationService-ios15";
+			};
+			name = Debug;
+		};
+		6877EC2326E04A0C00FBF155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TLMA6V33AH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elmetal.AuthenticationService-ios15Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AuthenticationService-ios15.app/AuthenticationService-ios15";
+			};
+			name = Release;
+		};
+		6877EC2526E04A0C00FBF155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TLMA6V33AH;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elmetal.AuthenticationService-ios15UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AuthenticationService-ios15";
+			};
+			name = Debug;
+		};
+		6877EC2626E04A0C00FBF155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TLMA6V33AH;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elmetal.AuthenticationService-ios15UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AuthenticationService-ios15";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6877EBF526E04A0A00FBF155 /* Build configuration list for PBXProject "AuthenticationService-ios15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6877EC1C26E04A0C00FBF155 /* Debug */,
+				6877EC1D26E04A0C00FBF155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6877EC1E26E04A0C00FBF155 /* Build configuration list for PBXNativeTarget "AuthenticationService-ios15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6877EC1F26E04A0C00FBF155 /* Debug */,
+				6877EC2026E04A0C00FBF155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6877EC2126E04A0C00FBF155 /* Build configuration list for PBXNativeTarget "AuthenticationService-ios15Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6877EC2226E04A0C00FBF155 /* Debug */,
+				6877EC2326E04A0C00FBF155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6877EC2426E04A0C00FBF155 /* Build configuration list for PBXNativeTarget "AuthenticationService-ios15UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6877EC2526E04A0C00FBF155 /* Debug */,
+				6877EC2626E04A0C00FBF155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6877EBF226E04A0A00FBF155 /* Project object */;
+}
