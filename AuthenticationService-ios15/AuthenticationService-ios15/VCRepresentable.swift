@@ -10,8 +10,13 @@ import Foundation
 import SwiftUI
 import AuthenticationServices
 
-struct VCRepresentable: UIViewControllerRepresentable {
-    private(set) var vc: VC
+struct VCRepresentable<AS: AuthenticationSessionProtocol>: UIViewControllerRepresentable {
+    private var vc = VC()
+    private var authenticationSessionModel: AuthenticationSessionModel<AS>
+
+    init(model: AuthenticationSessionModel<AS>) {
+        self.authenticationSessionModel = model
+    }
 
     func makeUIViewController(context: Context) -> VC { vc }
 
@@ -20,9 +25,3 @@ struct VCRepresentable: UIViewControllerRepresentable {
 }
 
 final class VC: UIViewController {}
-
-extension VC: ASWebAuthenticationPresentationContextProviding {
-    func presentationAnchor(for session: ASWebAuthenticationSession) -> ASPresentationAnchor {
-        return view.window!
-    }
-}

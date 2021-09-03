@@ -10,26 +10,14 @@ import SwiftUI
 import AuthenticationServices
 
 struct ContentView: View {
-    var vc = VC()
+let model = AuthenticationSessionModel<ASWebAuthenticationSession>()
 
     var body: some View {
         VStack {
-            VCRepresentable(vc: vc)
+            VCRepresentable(model: model)
 
             Button(action: {
-                guard let authURL = URL(string: "https://example.com/auth") else { return }
-                let scheme = "exampleauth"
-
-
-                // Initialize the session.
-                let session = ASWebAuthenticationSession(url: authURL, callbackURLScheme: scheme)
-                { callbackURL, error in
-                    // Handle the callback.
-                }
-
-                session.presentationContextProvider = vc
-
-                session.start()
+                model.action()
             }) {
                 Text("auth")
             }

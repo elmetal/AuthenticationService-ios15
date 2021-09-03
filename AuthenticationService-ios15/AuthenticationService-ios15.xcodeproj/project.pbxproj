@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68398B6626E1A50300D07F42 /* AuthenticationSessionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68398B6526E1A50300D07F42 /* AuthenticationSessionModel.swift */; };
+		68398B6826E1A5BC00D07F42 /* ASWebAuthenticationSession+sessionStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68398B6726E1A5BC00D07F42 /* ASWebAuthenticationSession+sessionStart.swift */; };
 		6877EBFE26E04A0A00FBF155 /* AuthenticationService_ios15App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6877EBFD26E04A0A00FBF155 /* AuthenticationService_ios15App.swift */; };
 		6877EC0026E04A0A00FBF155 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6877EBFF26E04A0A00FBF155 /* ContentView.swift */; };
 		6877EC0226E04A0C00FBF155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6877EC0126E04A0C00FBF155 /* Assets.xcassets */; };
@@ -15,6 +17,7 @@
 		6877EC1926E04A0C00FBF155 /* AuthenticationService_ios15UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6877EC1826E04A0C00FBF155 /* AuthenticationService_ios15UITests.swift */; };
 		6877EC1B26E04A0C00FBF155 /* AuthenticationService_ios15UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6877EC1A26E04A0C00FBF155 /* AuthenticationService_ios15UITestsLaunchTests.swift */; };
 		6877EC2826E0505700FBF155 /* VCRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6877EC2726E0505700FBF155 /* VCRepresentable.swift */; };
+		6877EC2A26E05EA900FBF155 /* AuthenticationSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6877EC2926E05EA900FBF155 /* AuthenticationSessionProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		68398B6526E1A50300D07F42 /* AuthenticationSessionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationSessionModel.swift; sourceTree = "<group>"; };
+		68398B6726E1A5BC00D07F42 /* ASWebAuthenticationSession+sessionStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ASWebAuthenticationSession+sessionStart.swift"; sourceTree = "<group>"; };
 		6877EBFA26E04A0A00FBF155 /* AuthenticationService-ios15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AuthenticationService-ios15.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6877EBFD26E04A0A00FBF155 /* AuthenticationService_ios15App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService_ios15App.swift; sourceTree = "<group>"; };
 		6877EBFF26E04A0A00FBF155 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +51,7 @@
 		6877EC1826E04A0C00FBF155 /* AuthenticationService_ios15UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService_ios15UITests.swift; sourceTree = "<group>"; };
 		6877EC1A26E04A0C00FBF155 /* AuthenticationService_ios15UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService_ios15UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6877EC2726E0505700FBF155 /* VCRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCRepresentable.swift; sourceTree = "<group>"; };
+		6877EC2926E05EA900FBF155 /* AuthenticationSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationSessionProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,9 @@
 				6877EC2726E0505700FBF155 /* VCRepresentable.swift */,
 				6877EC0126E04A0C00FBF155 /* Assets.xcassets */,
 				6877EC0326E04A0C00FBF155 /* Preview Content */,
+				6877EC2926E05EA900FBF155 /* AuthenticationSessionProtocol.swift */,
+				68398B6526E1A50300D07F42 /* AuthenticationSessionModel.swift */,
+				68398B6726E1A5BC00D07F42 /* ASWebAuthenticationSession+sessionStart.swift */,
 			);
 			path = "AuthenticationService-ios15";
 			sourceTree = "<group>";
@@ -260,9 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68398B6626E1A50300D07F42 /* AuthenticationSessionModel.swift in Sources */,
 				6877EC0026E04A0A00FBF155 /* ContentView.swift in Sources */,
 				6877EBFE26E04A0A00FBF155 /* AuthenticationService_ios15App.swift in Sources */,
+				6877EC2A26E05EA900FBF155 /* AuthenticationSessionProtocol.swift in Sources */,
 				6877EC2826E0505700FBF155 /* VCRepresentable.swift in Sources */,
+				68398B6826E1A5BC00D07F42 /* ASWebAuthenticationSession+sessionStart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
