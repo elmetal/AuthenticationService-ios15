@@ -9,6 +9,7 @@
 import Foundation
 import SwiftUI
 import AuthenticationServices
+import AuthenticationSession
 
 struct VCRepresentable<AS: AuthenticationSessionProtocol>: UIViewControllerRepresentable {
     private var vc = VC()

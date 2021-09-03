@@ -48,6 +48,16 @@
                ReferencedContainer = "container:AuthenticationService-ios15.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "68398B7626E1A63600D07F42"
+               BuildableName = "AuthenticationSessionTests.xctest"
+               BlueprintName = "AuthenticationSessionTests"
+               ReferencedContainer = "container:AuthenticationService-ios15.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

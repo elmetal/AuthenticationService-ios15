@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol AuthenticationSessionProtocol {
+public protocol AuthenticationSessionProtocol {
     init(url URL: URL,
          callbackURLScheme: String?,
          completionHandler: @escaping (URL?, Error?) -> Void)

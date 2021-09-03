@@ -8,6 +8,7 @@
 
 import Foundation
 import AuthenticationServices
+import AuthenticationSession
 
 final class WebAuthenticationPresentationContextProviding: NSObject, ASWebAuthenticationPresentationContextProviding {
     func presentationAnchor(for session: ASWebAuthenticationSession) -> ASPresentationAnchor {
@@ -18,7 +19,7 @@ final class WebAuthenticationPresentationContextProviding: NSObject, ASWebAuthen
 extension ASWebAuthenticationSession: AuthenticationSessionProtocol  {
     private static var contextProviding = WebAuthenticationPresentationContextProviding()
 
-    func sessionStart() {
+    public func sessionStart() {
         self.presentationContextProvider = Self.contextProviding
         self.start()
     }

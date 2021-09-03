@@ -8,6 +8,7 @@
 
 import SwiftUI
 import AuthenticationServices
+import AuthenticationSession
 
 struct ContentView: View {
 let model = AuthenticationSessionModel<ASWebAuthenticationSession>()
@@ -15,6 +16,7 @@ let model = AuthenticationSessionModel<ASWebAuthenticationSession>()
     var body: some View {
         VStack {
             VCRepresentable(model: model)
+                .background(Color.red.opacity(0.5))
 
             Button(action: {
                 model.action()

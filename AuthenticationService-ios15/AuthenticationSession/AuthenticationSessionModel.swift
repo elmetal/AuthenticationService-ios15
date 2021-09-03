@@ -8,8 +8,10 @@
 
 import Foundation
 
-struct AuthenticationSessionModel<AS: AuthenticationSessionProtocol> {
-    func action() {
+public struct AuthenticationSessionModel<AS: AuthenticationSessionProtocol> {
+    public init() {}
+
+    public func action() {
         guard let authURL = URL(string: "https://example.com/auth") else { return }
         let scheme = "exampleauth"
 
